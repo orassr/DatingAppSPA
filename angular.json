@@ -28,7 +28,8 @@
               "node_modules/font-awesome/css/font-awesome.min.css",
               "node_modules/alertifyjs/build/css/themes/default.css",
               "node_modules/alertifyjs/build/css/alertify.css",
-              "node_modules/bootswatch/cyborg/bootstrap.min.css"
+              "node_modules/bootswatch/cyborg/bootstrap.min.css",
+              "node_modules/ngx-bootstrap/datepicker/bs-datepicker.css"
             ],
             "scripts": [
               "node_modules/alertifyjs/build/alertify.js"

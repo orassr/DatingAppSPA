@@ -1,7 +1,7 @@
 <div class="panel panel-default">
   <div class="panel-body">
     <div class="panel-image">
-      <img src="{{user.photoUrl}}" alt="{{user.knownAs}}">
+      <img src="{{user.photoUrl ? user.photoUrl : '../../../assets/user.jpg'}}" alt="{{user.knownAs}}">
       <ul class="list-inline member-icons amimate text-center">
         <li><button class="btn btn-primary" [routerLink]="['/members/', user.id]" routerLinkActive="router-link-active" ><i class="fa fa-user"></i>
         </button>
